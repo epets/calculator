@@ -1,0 +1,12 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+    classes:
+      - com.callcenter.Homepatient
+      - com.callcenter.DICStockIn
+      - com.admin.NewRole
+      - com.admin.AccessRights
+      - com.callcenter.HomeInstallationGetDetails
+      - com.admin.UpdateRole
+

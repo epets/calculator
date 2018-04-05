@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.callcenter.Homepatient"/>
+      <class name="com.callcenter.DICStockIn"/>
+      <class name="com.admin.NewRole"/>
+      <class name="com.admin.AccessRights"/>
+      <class name="com.callcenter.HomeInstallationGetDetails"/>
+      <class name="com.admin.UpdateRole"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
